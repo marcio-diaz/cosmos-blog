@@ -1,0 +1,12 @@
+syntax = "proto3";
+package marcio.diaz.cosmosblog.cosmosblog;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/marcio.diaz/cosmos-blog/x/cosmosblog/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
+
